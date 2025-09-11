@@ -1,7 +1,7 @@
 {
   "someData": {
     "otherData": {
-      "showBanner": true
+      "showBanner": false
     }
   }
 }
