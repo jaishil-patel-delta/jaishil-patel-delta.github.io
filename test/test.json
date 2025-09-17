@@ -1,8 +1,128 @@
 {
-  "someData": {
-    "otherData": {
-      "showBanner": false,
-      "otherNewData": true
-    }
-  }
+  "result": {
+    "deto_msp": "0.10",
+    "deto_staking_daily_reward": "0.00",
+    "fiat_to_usd": {
+      "asset_to_fiat_value": 85,
+      "precision": 2
+    },
+    "fiat_withdrawal_fee": {
+      "base_withdrawal_fee": "0",
+      "variable_withdrawal_fee": "0"
+    },
+    "portfolio_margin_params": {
+      "enabled_portfolios": {
+        ".DEETHUSD": {
+          "hard_maintenance_margin_multiplier": "0.5",
+          "short_opt_margin_floor_max_bp": "500",
+          "price_shock_scaling_max_percent": "10",
+          "max_leverage_notional_im": "100000",
+          "im_scaling_base_percent": "0.5",
+          "price_shock_scaling_percent": "0.000004",
+          "im_scaling_percent": "0.000001",
+          "short_opt_margin_floor_premium_percent": "5",
+          "volatility_up_shock_scaling_percent": "0.000018",
+          "short_opt_margin_floor_scaling_percent_for_bps": "0.01",
+          "underlying_asset": "ETH",
+          "max_leverage_notional_volatility_up_shock": "100000",
+          "volatility_down_shock": "30",
+          "long_opt_margin_floor_scaling_percent_for_bps": "0.01",
+          "max_leverage_notional_volatility_down_shock": "100000",
+          "long_opt_margin_floor_max_bp": "500",
+          "volatility_down_shock_scaling_percent": "0.000012",
+          "options_liq_band_range_percentage": "25",
+          "options_contingency_margin_percent": "1",
+          "settling_asset": "USD",
+          "sort_priority": 1,
+          "interest_rate": "0",
+          "volatility_up_shock_scaling_base_percent": "9",
+          "options_discount_range": "10",
+          "volatility_down_shock_scaling_max_percent": "30",
+          "fut_margin_floor_scaling_percent": "0.000001",
+          "maintenance_margin_multiplier": "0.75",
+          "long_opt_margin_floor_scaling_base_bp": "50",
+          "asset_id": 14,
+          "long_opt_margin_floor_premium_percent": "5",
+          "fut_margin_floor_scaling_max_percent": "5",
+          "max_price_shock": "20",
+          "max_short_notional_limit": "200",
+          "max_leverage_notional_long_opt_margin_floor": "100000",
+          "volatility_down_shock_scaling_base_percent": "6",
+          "volatility_up_shock": "45",
+          "max_leverage_notional_short_opt_margin_floor": "100000",
+          "short_opt_margin_floor_scaling_base_bp": "50",
+          "im_scaling_max_percent": "2",
+          "volatility_up_shock_scaling_max_percent": "45",
+          "max_leverage_notional_fut_margin_floor": "100000",
+          "price_shock_scaling_base_percent": "2",
+          "fut_margin_floor_scaling_base_percent": "0.5",
+          "max_leverage_notional_price_shock": "100000"
+        },
+        ".DEXBTUSD": {
+          "hard_maintenance_margin_multiplier": "0.5",
+          "short_opt_margin_floor_max_bp": "200",
+          "price_shock_scaling_max_percent": "10",
+          "max_leverage_notional_im": "200000",
+          "im_scaling_base_percent": "0.5",
+          "price_shock_scaling_percent": "0.000004",
+          "im_scaling_percent": "0.0000005",
+          "short_opt_margin_floor_premium_percent": "5",
+          "volatility_up_shock_scaling_percent": "0.000018",
+          "short_opt_margin_floor_scaling_percent_for_bps": "0.0025",
+          "underlying_asset": "BTC",
+          "max_leverage_notional_volatility_up_shock": "100000",
+          "volatility_down_shock": "30",
+          "long_opt_margin_floor_scaling_percent_for_bps": "0.0025",
+          "max_leverage_notional_volatility_down_shock": "100000",
+          "long_opt_margin_floor_max_bp": "200",
+          "volatility_down_shock_scaling_percent": "0.000012",
+          "options_liq_band_range_percentage": "25",
+          "options_contingency_margin_percent": "1",
+          "settling_asset": "USD",
+          "sort_priority": 0,
+          "interest_rate": "0",
+          "volatility_up_shock_scaling_base_percent": "9",
+          "options_discount_range": "10",
+          "volatility_down_shock_scaling_max_percent": "30",
+          "fut_margin_floor_scaling_percent": "0.00000025",
+          "maintenance_margin_multiplier": "0.75",
+          "long_opt_margin_floor_scaling_base_bp": "50",
+          "asset_id": 14,
+          "long_opt_margin_floor_premium_percent": "5",
+          "fut_margin_floor_scaling_max_percent": "2",
+          "max_price_shock": "20",
+          "max_short_notional_limit": "50",
+          "max_leverage_notional_long_opt_margin_floor": "200000",
+          "volatility_down_shock_scaling_base_percent": "6",
+          "volatility_up_shock": "45",
+          "max_leverage_notional_short_opt_margin_floor": "200000",
+          "short_opt_margin_floor_scaling_base_bp": "50",
+          "im_scaling_max_percent": "2",
+          "volatility_up_shock_scaling_max_percent": "45",
+          "max_leverage_notional_fut_margin_floor": "200000",
+          "price_shock_scaling_base_percent": "1",
+          "fut_margin_floor_scaling_base_percent": "0.5",
+          "max_leverage_notional_price_shock": "100000"
+        }
+      },
+      "portfolio_enable_balance_threshold": 0,
+      "portfolio_enabled_contracts": [
+        "futures",
+        "perpetual_futures",
+        "call_options",
+        "put_options",
+        "move_options"
+      ]
+    },
+    "signal_trading_automation": [
+      "tradingview"
+    ],
+    "trade_farming_daily_reward": "1000",
+    "app_status": "live",
+    "maintenance_announcement_time": "1756480795838018",
+    "maintenance_start_time": "1756618200000000",
+    "maintenance_type": "scheduled",
+    "under_maintenance": "false"
+  },
+  "success": true
 }
